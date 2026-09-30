@@ -90,8 +90,6 @@ MySQL was used to perform:
 - Yearly and monthly performance analysis
 
 ## Project Structure
-
-```text
 sales-customer-analytics/
 │
 ├── data/
@@ -99,6 +97,9 @@ sales-customer-analytics/
 │
 ├── notebook/
 │   └── sales_analysis.ipynb
+│
+├── sql/
+│   └── sales_analysis.sql
 │
 ├── src/
 │
