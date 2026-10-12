@@ -2,12 +2,9 @@
 
 ## Project Overview
 
-This project analyzes retail sales and customer data to identify sales trends,
-profitability patterns, customer performance, product performance, and regional
-business insights.
+This project analyzes retail sales and customer data to identify sales trends, profitability patterns, customer performance, product performance, and regional business insights.
 
-The project uses Python for data cleaning, exploratory data analysis, and
-visualization, along with MySQL for business-focused SQL analysis.
+The project uses Python for data cleaning, exploratory data analysis, and visualization, along with MySQL for business-focused SQL analysis. A Power BI dashboard is also included to present key business metrics and performance trends visually.
 
 ## Business Questions
 
@@ -27,6 +24,8 @@ visualization, along with MySQL for business-focused SQL analysis.
 - Matplotlib
 - Seaborn
 - MySQL
+- Power BI
+- DAX
 - Jupyter Notebook
 - Git & GitHub
 
@@ -62,11 +61,36 @@ visualization, along with MySQL for business-focused SQL analysis.
 - Average shipping time
 - Orders and sales by shipping mode
 
+## Power BI Dashboard
+
+The Power BI dashboard presents an overview of sales performance, profitability, and product and regional insights through KPI cards and interactive visualizations.
+
+### Dashboard Preview
+
+![Sales Performance Overview Dashboard](powerbi/dashboard-preview.png)
+
+### Dashboard Highlights
+
+- **KPI Tracking:** Total Sales, Total Profit, and Profit Margin
+- **Sales Trends:** Monthly sales and profit margin analysis
+- **Category Analysis:** Sales performance across product categories
+- **Regional Profitability:** Profit comparison by region and category
+- **Product Analysis:** Sales versus profitability comparison
+- **Profit Contribution:** Profit analysis across product sub-categories
+
+### View & Download the Dashboard
+
+📊 **[View Dashboard Preview](powerbi/dashboard-preview.png)**
+
+📥 **[Download the Power BI Dashboard (.pbix)](powerbi/sales.pbix)**
+
+Download the `.pbix` file and open it using Microsoft Power BI Desktop to explore the report.
+
 ## Key Findings
 
 - Total sales were approximately **₹284.54M**.
 - Total profit was approximately **₹34.05M**.
-- The dataset contains **10,000 orders** and **35,026 units sold**.
+- The dataset contains approximately **10,000 orders** and **35,026 units sold**.
 - Technology generated the largest sales and profit contribution.
 - Office Supplies had the highest profit margin among the three categories.
 - The South region generated the highest sales and profit.
@@ -90,6 +114,8 @@ MySQL was used to perform:
 - Yearly and monthly performance analysis
 
 ## Project Structure
+
+```text
 sales-customer-analytics/
 │
 ├── data/
@@ -103,6 +129,21 @@ sales-customer-analytics/
 │
 ├── src/
 │
+├── powerbi/
+│   ├── sales.pbix
+│   └── dashboard-preview.png
+│
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
+
+## Project Outcome
+
+This project demonstrates practical skills in data cleaning, exploratory data analysis, SQL querying, business intelligence, KPI reporting, and data visualization.
+
+It reflects my ongoing journey in Data Analytics and my interest in transforming raw data into meaningful business insights that support better decision-making.
+
+---
+
+**Author:** Nandana T Arjun
